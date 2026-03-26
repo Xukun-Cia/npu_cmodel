@@ -13,6 +13,11 @@ Makefile
 *.exe
 out/
 
+# Large BF16 dumps (keep locally; not tracked)
+data/conv3d_input_bf16.txt
+data/conv3d_output_bf16.txt
+data/conv3d_weight_bf16.txt
+
 # IDE
 .idea/
 .vscode/
